@@ -31,7 +31,7 @@ public class EXERCICIO_17_JONATHAN {
 						while(erro) {
 							System.out.printf("A nota deve estar entre 0 e 25! Digite a nota novamente: ");
 							notas[y][x]=input.nextDouble();
-							if(notas[y][x]>=0 || notas[y][x]<=25) {
+							if(notas[y][x]>=0 && notas[y][x]<=25) {
 								erro=false;
 							}
 						}
